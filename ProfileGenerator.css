@@ -1,3 +1,5 @@
+
+
 .nav {
     height:100px;
     color:white;
@@ -5,6 +7,17 @@
     text-align: center;
     font-size: 40px;
     width:100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.profileBox{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height:500px;
+    gap:15px;
 }
 
 .profileCard{
@@ -14,6 +27,9 @@
     border-radius: 10px;
     padding:10px;
     box-shadow: 6px 6px 2px rgb(151, 149, 149);
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .memberCredentials{
