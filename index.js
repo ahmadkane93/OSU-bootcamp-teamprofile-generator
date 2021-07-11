@@ -7,13 +7,21 @@ const questions = [
     {
       message: 'What is your manager`s name?',  
       type: 'input',
-      name: 'managerName',
+      name: 'memberName',
       
     },
+
+    {
+        message: 'Who is the next employee?',
+        type: 'list',
+        name: 'anotherProfile',
+        choices: ["Engineer", "Manager", "Intern"],
+      },
+
     {
       message: 'What is their ID number?',
       type: 'input',
-      name: 'managerId',
+      name: 'memberId',
       
     },
     {
@@ -26,16 +34,10 @@ const questions = [
     {
       message: 'Enter their email address.',
       type: 'input',
-      name: 'managerEmail',
+      name: 'memberEmail',
       
     },
     
-    {
-      message: 'Who is the next employee?',
-      type: 'list',
-      name: 'anotherProfile',
-      choices: ["Engineer", "Intern", "Done"],
-    },
     
 ];
 
