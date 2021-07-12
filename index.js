@@ -45,3 +45,24 @@ const questions = [
     
 ];
 
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data, (err) =>
+    err ? console.log(err) : console.log('Your accounts have been created!')
+  );
+}
+
+
+
+
+function init() {
+    inquirer.prompt(questions)
+    .then(function(answers){ 
+        const results = (answers);
+
+        console.log(results)
+        writeToFile("index.html", results)
+    })
+}
+
+// Function call to initialize app
+init();
