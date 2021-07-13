@@ -10,6 +10,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    padding:60px;
 }
 
 .profileBox{
@@ -30,6 +31,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    
 }
 
 .memberCredentials{
