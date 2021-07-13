@@ -6,7 +6,7 @@ const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const { profile } = require("console");
-const employees = [];
+const teamMember = [];
 
 
 
@@ -87,7 +87,7 @@ function createProfile() {
 
             }
 
-            employees.push(newProfile);
+            teamMember.push(newProfile);
 
             // Function to Add Another Profile
             pushToHTML(newProfile)
