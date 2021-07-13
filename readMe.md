@@ -1,7 +1,7 @@
 # Team Profile Generator
   
  ### Created by: Ahmad Kane
-s
+
 <img src=./readme-intro.jpg/>
 
   ## Table of Contents
