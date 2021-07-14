@@ -1,9 +1,12 @@
-
+.subTitle {
+    text-align: center;
+    align-items: center;
+}
 
 .nav {
     height:100px;
     color:white;
-    background-color: blue;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(0,212,255,1) 100%);
     text-align: center;
     font-size: 40px;
     width:100%;
@@ -24,7 +27,7 @@
 .profileCard{
     height: 250px;
     width: 225px;
-    background-color: cornflowerblue;
+    background: linear-gradient(180deg, rgba(242,242,246,1) 0%, rgba(105,105,238,1) 100%);
     border-radius: 10px;
     padding:10px;
     box-shadow: 6px 6px 2px rgb(151, 149, 149);
