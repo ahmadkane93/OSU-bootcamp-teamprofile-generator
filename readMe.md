@@ -2,7 +2,7 @@
   
  ### Created by: Ahmad Kane
 
-<img src=./readme-intro.jpg/>
+<img src=./readme-intro2.jpg/>
 
   ## Table of Contents
 
